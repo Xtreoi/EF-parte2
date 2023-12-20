@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;400;600&display=swap');
+
+:root {
+    --qode-main-color: #2949F9;
+    --qode-header-light-color: #fff;
+    --qode-header-light-hover-color: #ee2852;
+    --qode-header-dark-color: #000;
+    --qode-header-dark-hover-color: #2949F9;
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --fondo-nav: #282828;
+    --hover-nav: #393939;
+}
+
+body{
+    background-color: #161616;
+    font-family: 'Oxanium', sans-serif;
+    font-size: 15px;
+    line-height: 1.66667em;
+    font-weight: 400;
+    color: #d5d5d5;
+    text-transform: uppercase;
+}
+
+p{
+    text-transform: lowercase;
+}
+
+h2{
+    margin: 40px 0px;
+}
+
+#nav-bar .navbar{
+    margin: 38px 0;
+    padding: 0px 45px ;
+}
+
+#nav-bar .navbar ul li:hover{
+    background-color: var(--hover-nav);
+}
+
+#banner{
+    margin: 40px 0;
+}
+
+.padded{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.container{
+    max-width: 1222px;
+}
+
+.letra-nav{
+    font-size: 18px;
+    line-height: 1.27778em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.texto-game{
+    background-color: var(--e-global-color-secondary);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.nav-link{
+    padding: 0;
+}
+
+.nav-item{
+    padding: 33.5px 38px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #ffffff;
+}
+
+.bg-dark {
+    background-color: var(--fondo-nav) !important;
+}
+
+.col-2{
+    padding: 0;
+}
+.col-4{
+    padding-left: 0;
+}
